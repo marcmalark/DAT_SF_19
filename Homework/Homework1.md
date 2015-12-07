@@ -29,13 +29,14 @@ MARCCAM-M-618J:data Computer$ tail chipotle.tsv
 ```
 
 ##Question 1
-i. order #, quantity, product, options, price
-ii. 1834 orders
+*i. order #, quantity, product, options, price
+*ii. 1834 orders
 from number of orders in column A
-iii. 4623 lines
+*iii. 4623 lines
 MARCCAM-M-618J:data Computer$ wc -l chipotle.tsv
     4623 chipotle.tsv
-iv. chicken is more popular than steak
+*iv. chicken is more popular than steak
+```unix
 MARCCAM-M-618J:data Computer$ grep -ic "steak burrito" chipotle.tsv
 368
 MARCCAM-M-618J:data Computer$ grep -ic "chicken burrito" chipotle.tsv
@@ -45,8 +46,10 @@ MARCCAM-M-618J:data Computer$ grep -i "chicken burrito" chipotle.tsv | grep -ic 
 282
 MARCCAM-M-618J:data Computer$ grep -i "chicken burrito" chipotle.tsv | grep -ic "pinto beans"
 105
+```
 
 ##Question 2
+```unix
 MARCCAM-M-618J:dat7 Computer$ find . -name *.*sv
 ./data/airlines.csv
 ./data/chipotle.tsv
@@ -59,10 +62,11 @@ MARCCAM-M-618J:dat7 Computer$ find . -name *.*sv
 ./data/vehicles_test.csv
 ./data/vehicles_train.csv
 ./data/yelp.cs
+```
 
 ##Question 3
 Total= 29
-
+```unix
 ./code/00_python_intermediate_workshop.py:9
 ./code/02_command_line.md:2
 ./code/03_file_reading.py:1
@@ -76,7 +80,6 @@ Total= 29
 ./project/README.md:1
 ./README.md:1
 
-'''unix
 MARCCAM-M-618J:dat7 Computer$ grep -ric "dictionary" .
 ./.git/config:0
 ./.git/description:0
@@ -225,4 +228,4 @@ MARCCAM-M-618J:dat7 Computer$ grep -ric "dictionary" .
 ./slides/16_kaggle.pptx:0
 ./slides/19_clustering.pdf:0
 ./slides/19_clustering.pptx:0
-'''
+```
