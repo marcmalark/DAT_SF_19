@@ -29,13 +29,15 @@ MARCCAM-M-618J:data Computer$ tail chipotle.tsv
 ```
 
 ##Question 1
-*i. order #, quantity, product, options, price
-*ii. 1834 orders
-from number of orders in column A
-*iii. 4623 lines
+1. order #, quantity, product, options, price  
+2. 1834 orders  
+from number of orders in column A  
+3. 4623 lines  
+```unix
 MARCCAM-M-618J:data Computer$ wc -l chipotle.tsv
     4623 chipotle.tsv
-*iv. chicken is more popular than steak
+```
+4. chicken is more popular than steak  
 ```unix
 MARCCAM-M-618J:data Computer$ grep -ic "steak burrito" chipotle.tsv
 368
