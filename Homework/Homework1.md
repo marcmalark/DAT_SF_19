@@ -1,6 +1,6 @@
 # Homework 1
 
-'''unix 
+```unix
 MARCCAM-M-618J:data Computer$ head chipotle.tsv
 order_id quantity item_name choice_description item_price
 1 1 Chips and Fresh Tomato Salsa NULL $2.39
@@ -12,9 +12,9 @@ order_id quantity item_name choice_description item_price
 3 1 Side of Chips NULL $1.69
 4 1 Steak Burrito [Tomatillo Red Chili Salsa, [Fajita Vegetables, Black Beans, Pinto Beans, Cheese, Sour Cream, Guacamole, Lettuce]] $11.75
 4 1 Steak Soft Tacos [Tomatillo Green Chili Salsa, [Pinto Beans, Cheese, Sour Cream, Lettuce]] $9.25
-'''
+```
 
-'''unix
+```unix
 MARCCAM-M-618J:data Computer$ tail chipotle.tsv
 1831 1 Carnitas Bowl [Fresh Tomato Salsa, [Fajita Vegetables, Rice, Black Beans, Cheese, Sour Cream, Lettuce]] $9.25
 1831 1 Chips NULL $2.15
@@ -26,7 +26,7 @@ MARCCAM-M-618J:data Computer$ tail chipotle.tsv
 1834 1 Chicken Salad Bowl [Fresh Tomato Salsa, [Fajita Vegetables, Pinto Beans, Guacamole, Lettuce]] $11.25
 1834 1 Chicken Salad Bowl [Fresh Tomato Salsa, [Fajita Vegetables, Lettuce]] $8.75
 1834 1 Chicken Salad Bowl [Fresh Tomato Salsa, [Fajita Vegetables, Pinto Beans, Lettuce]] $8.75
-'''
+```
 
 ##Question 1
 i. order #, quantity, product, options, price
